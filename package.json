@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Guy-Gustave/weather-app/issues"
   },
-  "homepage": "https://github.com/Guy-Gustave/weather-app#readme"
+  "homepage": "https://github.com/Guy-Gustave/weather-app#readme",
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
 }
