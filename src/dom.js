@@ -1,2 +1,8 @@
-const key = 'd3df3c959b4f72c4bd5a6ba64d3cd298';
-const
+const dom = {
+  form : document.querySelector(".top-banner form"),
+  input : document.querySelector(".top-banner input"),
+  msg : document.querySelector(".top-banner .msg"),
+  list : document.querySelector(".ajax-section .cities")
+};
+
+// export default { dom };

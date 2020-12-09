@@ -1,10 +1,10 @@
 /* RESET STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-  --bg_main: #0a1f44;
+  --bg_main: linear-gradient(160deg, rgba(93, 128, 108, 0.7) 40%, rgba(36, 144, 216, 0.9)80%);
   --text_light: #fff;
   --text_med: #53627c;
-  --text_dark: #1e2432;
+  --text_dark: #050913;
   --red: #ff1e42;
   --darkred: #c3112d;
   --orange: #ff8c00;
@@ -62,9 +62,6 @@ body {
   padding: 0 15px;
 }
 
-
-/* SECTION #1
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-banner {
   color: var(--text_light);
 }
@@ -180,23 +177,6 @@ body {
   height: 100px;
 }
 
-
-/* FOOTER
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.page-footer {
-  text-align: right;
-  font-size: 1rem;
-  color: var(--text_light);
-  margin-top: 40px;
-}
-
-.page-footer span {
-  color: var(--red);
-}
-
-
-/* MQ
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 1000px) {
   body {
     padding: 30px;
@@ -240,15 +220,5 @@ body {
 
   .ajax-section .cities {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    padding: 15px;
-  }
-  
-  .ajax-section .cities {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
