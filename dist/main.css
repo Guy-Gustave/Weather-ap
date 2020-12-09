@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bb88c0;
+}
+
+html {
+  font-size: x-large;
+}
+
+section {
+  margin: 40px 100px;
+  background-color: #888;
+  width: 100vh;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+
+}

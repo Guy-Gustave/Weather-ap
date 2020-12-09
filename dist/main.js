@@ -1,1 +1,1 @@
-console.log("hey");
+(()=>{const e=document.querySelector("form"),t=document.querySelector(".details");e.addEventListener(submit,(e=>{e.preventDefault(),t.innerHTML="<h1>loading...</h1>"}))})();
