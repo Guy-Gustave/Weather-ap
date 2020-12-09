@@ -7,24 +7,27 @@
   <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <section>
+  <section class="top-banner">
     <div class="container">
-      <div class="details">
-        <h1 class="temp">30</h1>
-        <h1 class="status">clouds</h1>
-        <div class="more-infos">
-          <p>info-1</p>
-          <p>info-2</p>
-          <p>info-3</p>
-          <p>info-4</p>
-        </div>
-      </div>
-      <form action="" class="form1">
-        <input type="text" placeholder="enter a city" name="location">
-        <button type="submit">Search</button>
+      <h1 class="heading">Simple Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
       </form>
     </div>
   </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      <small>Made with <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">George Martsoukos</a>
+      </small>
+    </div>
+  </footer>
   
   <script src="./main.js"></script>
 </body>
