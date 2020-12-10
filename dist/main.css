@@ -117,7 +117,7 @@ body {
 }
 
 .ajax-section {
-  margin: 70px 0 20px;
+  margin: 40px 0 20px;
 }
 
 .ajax-section .cities {
@@ -127,9 +127,9 @@ body {
 
 .ajax-section .city {
   position: relative;
-  padding: 40px 10%;
+  padding: 20px 10%;
   border-radius: 20px;
-  background: var(--text_light);
+  background: rgb(228, 223, 231);
   color: var(--text_med);
 }
 
@@ -153,7 +153,7 @@ body {
 }
 
 .ajax-section .city-temp {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-top: 10px;
   color: var(--text_dark);

@@ -40,6 +40,7 @@ form.addEventListener('submit', e => {
   }
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`;
+  const celciusToFaren = (celcius) => ((celcius * 9) / 5 + 32).toFixed(2);
 
   fetch(url)
     .then(response => response.json())
@@ -56,7 +57,7 @@ form.addEventListener('submit', e => {
           <span>${name}</span>
           <sup>${sys.country}</sup>
         </h1>
-        <div class='city-temp'>${Math.round(main.temp)}<sup>°C</sup></div>
+        <div class='city-temp'>${Math.round(main.temp)}<sup>°C</sup> / ${celciusToFaren(Math.round(main.temp))}<sup>°F</sup></div>
         <figure>
           <img class="city-icon" src="${icon}" alt="${
   weather[0].description
