@@ -70,13 +70,16 @@ body {
   font-weight: bold;
   font-size: 4rem;
   letter-spacing: 0.02em;
-  padding: 0 0 30px 0;
+  padding: 0 0 40px 0;
+  color: #114ee7;
+  text-align: center ;
 }
 
 .top-banner form {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .top-banner form input {
@@ -118,9 +121,8 @@ body {
 }
 
 .ajax-section .cities {
-  display: grid;
-  grid-gap: 32px 20px;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-around;
 }
 
 .ajax-section .city {

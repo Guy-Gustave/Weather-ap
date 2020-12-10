@@ -8,17 +8,13 @@ const apiKey = "12bc13a5cc15a08bf549fe4d82d0f372";
 form.addEventListener("submit", e => {
   e.preventDefault();
   let inputVal = input.value;
-
-
   const listItems = list.querySelectorAll(".ajax-section .city");
   const listItemsArray = Array.from(listItems);
 
   if (listItemsArray.length > 0) {
     const filteredArray = listItemsArray.filter(el => {
       let content = "";
-      //athens,gr
       if (inputVal.includes(",")) {
-        //athens,grrrrrr->invalid country code, so we keep only the first part of inputVal
         if (inputVal.split(",")[1].length > 2) {
           inputVal = inputVal.split(",")[0];
           content = el
