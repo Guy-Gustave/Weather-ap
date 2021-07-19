@@ -3,6 +3,8 @@
 
 This project is a weather app that allow user to search for weather by the name of the city.
 
+## [live link](https://raw.githack.com/Guy-Gustave/Weather-ap/development/dist/index.html)
+
 ## Built With
 
 - JavaScript
